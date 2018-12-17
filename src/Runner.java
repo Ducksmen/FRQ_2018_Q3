@@ -4,5 +4,7 @@ public class Runner {
         StringChecker sc2 = new CodeWordChecker("pass");
         System.out.println(sc1.isValid("Banana$"));
         System.out.println(sc2.isValid("bananas"));
+        System.out.println(sc2.isValid("passing"));
+        System.out.println(sc2.isValid("pas"));
     }
 }
