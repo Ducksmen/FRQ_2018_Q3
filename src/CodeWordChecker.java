@@ -16,6 +16,6 @@ public class CodeWordChecker implements StringChecker {
     }
     @Override
     public boolean isValid(String str) {
-        return str.length() > min && str.length() < max && !str.contains(word);
+        return str.length() >= min && str.length() <= max && !str.contains(word);
     }
 }
